@@ -19,7 +19,7 @@ function App() {
     <div className="bg-white min-h-screen">
       <Navbar />
       <Routes>
-        <Route path="/bakery-frontend" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/products" element={<Products />} />
